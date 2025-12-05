@@ -16,7 +16,7 @@ void main() {
         
     builder: (context, value, child){
       return MaterialApp(
-        theme: ThemeData(scaffoldBackgroundColor: Styles.themeData),
+        theme: ThemeData(scaffoldBackgroundColor: Colors.white),
         home: HomeScreen(),
       );
     }
